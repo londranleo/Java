@@ -18,3 +18,5 @@ Tipo nombreVarible = valor;
 ```
 
 [[001-Ejemplos]]
+
+Pendejo
