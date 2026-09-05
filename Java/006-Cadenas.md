@@ -18,21 +18,21 @@ Si deseamos modificar, tenemos que crear un nuevo objeto.
 
 `==` compara la referencia
 `new String` crea un nuevo objeto.
-`.equals` compara contenido.
+`.equals` compara el contenido de dos cadenas para verificar si son exactamente iguales. La versión `.equalsIgnoreCase()` ignora las mayúsculas y minúsculas durante la comparación.
 
 # Métodos de cadenas
 
-`.length()` obtener longitud.
-`.replace()` remplaza caracteres.
-`.toUppercase()` convierte en mayúsculas.
-`.toLowercase()` convierte en minúsculas.
-`.trim()` elimina espacios al inicio y final.
+`.length()` Este método devuelve la longitud de la cadena, es decir, el número de caracteres que contiene. Es útil para saber cuántos caracteres tiene una cadena.
+`.replace()` Reemplaza todas las apariciones de un carácter o secuencia de caracteres dentro de la cadena por otra secuencia especificada.
+`.toUppercase()` convierte una cadena mayúsculas.
+`.toLowercase()` convierten una cadena a minúsculas
+`.trim()` Elimina los espacios en blanco al principio y al final de la cadena, pero no afecta a los espacios entre palabras.
 
 # Subcadenas
 
 En general es una secuencia continua de caracteres dentro de `String`. podía ser una parte de la cadena o toda la cadena también. 
 
-`.substring()` 
+`.substring()` Este método devuelve una nueva cadena que es una subcadena de la original, comenzando en el índice especificado y hasta el final de la cadena.
 
 ```
 String nombre = "Juan";
@@ -51,7 +51,7 @@ Ju
 # Bugueada subcadena 
 
 `.indexOf()` devuelve el índice de la primera aparición.
-`lastIndexOf()` devuelve la ultima aparición.
+`.lastIndexOf()` devuelve la ultima aparición.
 
 ```
 String nombre = "juanmanuel";

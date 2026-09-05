@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "Java/006-Cadenas.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -247,13 +247,13 @@
   },
   "active": "b4eb3a7561fbbc7e",
   "lastOpenFiles": [
-    "800.jpeg",
+    "Java/004-Contatenacion de cadenas.md",
     "Java/005-Constantes.md",
     "Java/006-Cadenas.md",
-    "Java/001-Variables.md",
-    "Java/004-Contatenacion de cadenas.md",
     "Java/003-Tipo var.md",
     "Java/002-Reglas para los nombre variables.md",
+    "Java/001-Variables.md",
+    "800.jpeg",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ejemplos/001-Ejemplos.md",
