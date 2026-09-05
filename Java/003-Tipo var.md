@@ -1,4 +1,4 @@
-la palabra clave `var` permite simplificar tu codigo, ya que no debes especificar el tipo de dato manualmente.
+la palabra clave `var` permite simplificar tu código, ya que no debes especificar el tipo de dato manualmente.
 
 # Reglas 
 
