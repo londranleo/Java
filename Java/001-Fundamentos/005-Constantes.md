@@ -2,13 +2,13 @@ Una **constante** es un valor que, una vez establecido, **no puede ser reasignad
 
 En Java, las constantes se crean utilizando la palabra clave `final`. Al declarar una variable como `final`, solo puede recibir una asignación válida una vez.
 
-```
+```java
 final int EDAD_MAXIMA = 18;
 ```
 
 Después de asignarle un valor, no se puede realizar otra asignación:
 
-```
+```java
 EDAD_MAXIMA = 21; // Error
 ```
 
@@ -20,7 +20,7 @@ Las constantes se utilizan para representar valores que tienen un significado fi
 
 Por convención, cuando una constante es `static final`, su nombre se escribe utilizando **mayúsculas y guiones bajos**:
 
-```
+```java
 static final double IVA = 0.21;
 ```
 

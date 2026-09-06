@@ -8,7 +8,7 @@ Se produce cuando Java puede convertir automáticamente un tipo a otro compatibl
 
 Esto ocurre principalmente cuando se pasa de un tipo numérico con menor capacidad de representación a otro con mayor capacidad.
 
-```
+```java
 int numero = 10;
 double decimal = numero;
 ```
@@ -23,7 +23,7 @@ Se utiliza cuando Java no puede realizar la conversión automáticamente o cuand
 
 Para ello se utiliza un **casting**, escribiendo el tipo de destino entre paréntesis:
 
-```
+```java
 double precio = 19.99;
 int entero = (int) precio;
 ```
@@ -44,7 +44,7 @@ También pueden producirse diferencias de precisión al convertir valores de tip
 
 La conversión de datos también puede implicar texto. Un `String` que contiene un número no es lo mismo que un número.
 
-```
+```java
 "25" → String
 25   → int
 ```

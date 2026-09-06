@@ -4,7 +4,7 @@ En Java, una de las formas habituales de generar números aleatorios es mediante
 
 Primero se crea un objeto `Random`:
 
-```
+```java
 Random random = new Random();
 ```
 
@@ -12,7 +12,7 @@ A partir de este objeto se pueden generar valores de diferentes tipos mediante s
 
 Cuando necesitamos que el número pertenezca a un **rango determinado**, podemos proporcionar un límite. Por ejemplo:
 
-```
+```java
 int numero = random.nextInt(10);
 ```
 
@@ -20,7 +20,7 @@ En este caso, el resultado estará entre `0` y `9`. El límite superior **no se 
 
 Esto es importante para entender los rangos de generación:
 
-```
+```java
 nextInt(10)
 
 mínimo → 0
@@ -33,13 +33,13 @@ También es posible obtener un número dentro de un intervalo que comience en ot
 
 Java también proporciona `Math.random()`, que genera un valor `double` en un intervalo comprendido entre `0.0` incluido y `1.0` excluido.
 
-```
+```java
 double numero = Math.random();
 ```
 
 Su resultado siempre cumple:
 
-```
+```java
 0.0 <= número < 1.0
 ```
 

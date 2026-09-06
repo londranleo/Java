@@ -19,19 +19,19 @@ Los más utilizados son:
 
 Por ejemplo, las comillas dobles normalmente indican el comienzo y el final de un `String`. Si queremos incluir unas comillas dentro del propio texto, debemos escaparlas:
 
-```
+```java
 String mensaje = "Él dijo: \"Hola\"";
 ```
 
 El resultado contiene las comillas como parte del texto:
 
-```
+```java
 Él dijo: "Hola"
 ```
 
 También podemos utilizar caracteres de escape para controlar el formato del texto:
 
-```
+```java
 String texto = "Hola\nMundo";
 ```
 

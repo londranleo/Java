@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/004-Contatenacion de cadenas.md",
+                "file": "Java/001-Fundamentos/004-Contatenacion de cadenas.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/013-Caracteres especiales.md",
+                "file": "Java/001-Fundamentos/013-Caracteres especiales.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/014-Leer datos por consola.md",
+                "file": "Java/001-Fundamentos/014-Leer datos por consola.md",
                 "mode": "source",
                 "source": false
               },
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/015-Convercion de datos.md",
+                "file": "Java/001-Fundamentos/015-Convercion de datos.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/016-Numeros aleatorios.md",
+                "file": "Java/001-Fundamentos/016-Numeros aleatorios.md",
                 "mode": "source",
                 "source": false
               },
@@ -83,7 +83,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/017-Formateo de cadeana.md",
+                "file": "Java/001-Fundamentos/017-Formateo de cadeana.md",
                 "mode": "source",
                 "source": false
               },
@@ -97,16 +97,254 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Fundamentos/001-Variables.md",
+                "file": "Java/001-Fundamentos/010-Operadores en java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-Variables"
+              "title": "010-Operadores en java"
+            }
+          },
+          {
+            "id": "fdb4f52dfd3458d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/temario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "temario"
+            }
+          },
+          {
+            "id": "aa7737267e4e06f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010-Operadores en java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010-Operadores en java"
+            }
+          },
+          {
+            "id": "dc97e8a7612fabaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.1-Operadores aritméticos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.1-Operadores aritméticos"
+            }
+          },
+          {
+            "id": "f72d19c068c34005",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.2-Operadores de asignación.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.2-Operadores de asignación"
+            }
+          },
+          {
+            "id": "b497ce9c87e9cd42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.3-Operadores relacionales.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.3-Operadores relacionales"
+            }
+          },
+          {
+            "id": "7606a9925589e749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.4-Operadores de igualdad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.4-Operadores de igualdad"
+            }
+          },
+          {
+            "id": "bcd56081c70126b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.5-Operadores lógicos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.5-Operadores lógicos"
+            }
+          },
+          {
+            "id": "c91a21dd4bdd2e96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.6-Operadores unarios.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.6-Operadores unarios"
+            }
+          },
+          {
+            "id": "104b6e9e25a512c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.7-Operador ternario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.7-Operador ternario"
+            }
+          },
+          {
+            "id": "4e149f8403f142f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/001-Fundamentos/010.8-Operadores a nivel de bits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "010.8-Operadores a nivel de bits"
+            }
+          },
+          {
+            "id": "5a4d159421daed26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/temario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "temario"
+            }
+          },
+          {
+            "id": "2e014560c57a5c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/002-Control de flujo/001-Control de flujo.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "001-Control de flujo"
+            }
+          },
+          {
+            "id": "9d89bafbdd83466f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/temario.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "temario"
+            }
+          },
+          {
+            "id": "1b0be0376f583f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/002-Control de flujo/003-else.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "003-else"
+            }
+          },
+          {
+            "id": "5817db373d364488",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/temario.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "temario"
+            }
+          },
+          {
+            "id": "3a75ed3806dcaae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/002-Control de flujo/005-switch.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "005-switch"
+            }
+          },
+          {
+            "id": "b2b3c342ac8d100a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/temario.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "temario"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -168,7 +406,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 230.5
   },
   "right": {
     "id": "195038ed3a4e8202",
@@ -273,42 +511,45 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "31f9ad252382dd19",
+  "active": "b2b3c342ac8d100a",
   "lastOpenFiles": [
-    "Java/Fundamentos",
-    "Java/Fundamentos/001-Variables.md",
-    "Sin título.md",
-    "Ejemplos/001-Ejemplos.md",
-    "Java/Fundamentos/003-Tipo var.md",
-    "Java/Operadores/001-Operadores en java.md",
-    "Java/Fundamentos/017-Formateo de cadeana.md",
-    "Java/Fundamentos/016-Numeros aleatorios.md",
-    "Java/Fundamentos/015-Convercion de datos.md",
-    "Java/Fundamentos/014-Leer datos por consola.md",
-    "Java/Fundamentos/013-Caracteres especiales.md",
-    "Java/Fundamentos/012-Busqueda de subcadena.md",
-    "Java/Fundamentos/011-Subcadenas.md",
-    "Java/Fundamentos/010-Metodos de cadenas.md",
-    "Java/Fundamentos/009-Comparacion de cadenas.md",
-    "Java/Fundamentos/008-Inmutabilidad de cadenas.md",
-    "Java/Fundamentos/007-Índices de una cadena.md",
-    "Java/Fundamentos/006-Cadenas.md",
-    "Java/Fundamentos/005-Constantes.md",
-    "Java/Operadores",
-    "Java/Fundamentos/004-Contatenacion de cadenas.md",
-    "Java/Fundamentos/002-Reglas para los nombre variables.md",
+    "Java/002-Control de flujo/006-while.md",
+    "Java/002-Control de flujo/005-switch.md",
+    "Java/002-Control de flujo/001-Control de flujo.md",
+    "Java/temario.md",
+    "Java/002-Control de flujo/004-else if.md",
+    "Java/002-Control de flujo/003-else.md",
+    "Java/002-Control de flujo/002-If.md",
+    "Java/001-Fundamentos/010.7-Operador ternario.md",
+    "Java/001-Fundamentos/010.6-Operadores unarios.md",
+    "Java/001-Fundamentos/010.5-Operadores lógicos.md",
+    "Java/001-Fundamentos/010.4-Operadores de igualdad.md",
+    "Java/001-Fundamentos/010.3-Operadores relacionales.md",
+    "Java/001-Fundamentos/010.2-Operadores de asignación.md",
+    "Java/001-Fundamentos/010.1-Operadores aritméticos.md",
+    "Java/001-Fundamentos/005-Constantes.md",
+    "Java/001-Fundamentos/004.8-Formateo de cadena.md",
+    "Java/001-Fundamentos/006-Caracteres especiales.md",
+    "Java/001-Fundamentos/007-Leer datos por consola.md",
+    "Java/001-Fundamentos/008-Convercion de datos.md",
+    "Java/001-Fundamentos/009-Numeros aleatorios.md",
+    "Java/001-Fundamentos/010-Operadores en java.md",
+    "Java/001-Fundamentos/010.8-Operadores a nivel de bits.md",
+    "Java/001-Fundamentos/010.9-Operadores de asignación compuesta.md",
+    "Java/002-Control de flujo",
+    "Sin título 2.md",
+    "Java/001-Fundamentos/004.7-Busqueda de subcadena.md",
+    "Java/001-Fundamentos/004.6-Subcadenas.md",
+    "Java/001-Fundamentos/006-Cadenas",
+    "Java/001-Fundamentos",
+    "Java/002-Operadores",
     "800.jpeg",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "Ejemplos",
-    "Java/001-Ejemplo.md",
     "Java",
-    "2026-09-02.md",
     "Sin título.base",
     "Sin nombre 1",
-    "Spring MVC/Modulo 4.md",
-    "Spring MVC/Qué es Spring MVC.md",
-    "Spring MVC/Qué problema resuelve.md",
     "Canva.canvas",
     "Spring MVC/Sin título.canvas",
     "Spring MVC"

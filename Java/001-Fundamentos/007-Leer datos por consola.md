@@ -4,7 +4,7 @@ En Java, una de las formas más habituales de leer datos desde la consola es med
 
 Primero se crea un objeto `Scanner` asociado a la entrada estándar del programa, representada por `System.in`:
 
-```
+```java
 Scanner entrada = new Scanner(System.in);
 ```
 
@@ -22,7 +22,7 @@ A partir de ese objeto se pueden utilizar diferentes métodos dependiendo del ti
 
 Por ejemplo, para leer un número entero:
 
-```
+```java
 int edad = entrada.nextInt();
 ```
 
@@ -30,7 +30,7 @@ El programa queda esperando hasta que el usuario introduzca un valor que pueda i
 
 Para leer texto completo se utiliza normalmente `nextLine()`:
 
-```
+```java
 String nombre = entrada.nextLine();
 ```
 
