@@ -110,7 +110,7 @@ para definir una variable , se debe especificar el tipo de dato, seguido del nom
 Tipo nombreVarible = valor;
 ```
 
-[[001-Ejemplos]]
+
 
 
 
