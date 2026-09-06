@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "017-Formateo de cadeana"
             }
+          },
+          {
+            "id": "eb95ffeffe5f8690",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operadores/001-Operadores en java.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "001-Operadores en java"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -259,26 +273,27 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3816f39c296b6f82",
+  "active": "31f9ad252382dd19",
   "lastOpenFiles": [
-    "Operadores",
-    "Java/016-Numeros aleatorios.md",
     "Java/017-Formateo de cadeana.md",
+    "Operadores/001-Operadores en java.md",
+    "Java/016-Numeros aleatorios.md",
     "Java/015-Convercion de datos.md",
     "Java/014-Leer datos por consola.md",
     "Java/013-Caracteres especiales.md",
-    "Java/004-Contatenacion de cadenas.md",
-    "Java/005-Constantes.md",
     "Java/012-Busqueda de subcadena.md",
-    "Java/006-Cadenas.md",
-    "Java/010-Metodos de cadenas.md",
-    "Java/003-Tipo var.md",
-    "Java/002-Reglas para los nombre variables.md",
     "Java/011-Subcadenas.md",
+    "Java/010-Metodos de cadenas.md",
     "Java/009-Comparacion de cadenas.md",
     "Java/008-Inmutabilidad de cadenas.md",
     "Java/007-Índices de una cadena.md",
+    "Java/006-Cadenas.md",
+    "Java/005-Constantes.md",
     "Java/001-Variables.md",
+    "Operadores",
+    "Java/004-Contatenacion de cadenas.md",
+    "Java/003-Tipo var.md",
+    "Java/002-Reglas para los nombre variables.md",
     "800.jpeg",
     "Sin título.canvas",
     "Sin título 1.canvas",
