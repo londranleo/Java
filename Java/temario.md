@@ -79,7 +79,7 @@
 - Modificadores de acceso
 - `static`
 - `final`
-- Herencia
+- Herencia---
 - `super`
 - Polimorfismo
 - Sobrescritura
