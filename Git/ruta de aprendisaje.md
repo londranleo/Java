@@ -100,3 +100,5 @@ Release
 Y lo aplicaremos a proyectos como **Java + Maven + MySQL + Spring Boot**.
 
 Ahora mismo estamos en el **punto 10 (`git reset`)**. El siguiente de la ruta es **`git revert`**.
+
+pendejo.
