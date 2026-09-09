@@ -82,3 +82,16 @@ git config --local user.name
 ```
 
 En la práctica, **`--global` suele utilizarse para tu configuración habitual y `--local` para excepciones en proyectos concretos**.
+
+>Guardar las credenciales cuando hacemos `git push`. 
+
+```
+git config --global credential.helper=store
+```
+
+Ahora cuando ejecutemos `git push` nos pedira autentidicacion, `Username` tu id de tu github o uno inventado, `Password` aqui hay tener un **Personal access tokens**.
+
+```
+Username for 'https://github.com': 
+Password for 'https://londranleo@github.com':
+```
