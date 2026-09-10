@@ -2,7 +2,7 @@ Una variable no es más que un **espacio reservado en la memoria RAM** para alma
 
 En Java, para usar una variable, primero debemos **declararla** (decirle al sistema: “resérvame espacio para un entero”) e **inicializarla** (darle un valor).
 
-```
+```java
 //declaracion 
 int edad;
 
@@ -35,10 +35,10 @@ sirve para contar cosas que no tienen decimales hay 4 tipos, dependiendo de lo g
 
 El tipo habitual es `int`. En Java, cuando escribes un numero `10` en el código, el copilador asume que es un `int`.
 
-> [!NOTE] Nota
+> [!IMPORTAD] 
 > Si quieres usar `long`, debes poner una "L" al final del numero, porque si no, Java intentara tratarlo como un `int` y si es muy grande, dara error.
 
-```
+```java
 int habitaciones = 12345678;
 long distanciaEstrella = 9460730472580800L
 ```
@@ -56,7 +56,7 @@ Para cada numero con partes fraccionaria se utiliza el estándar **IEEE 754** .
 
 Al igual que con los enteros, hay un estándar que es `double`. Java trata cualquier decimal (`3.14`) como un` double` por defecto. Si quieres forzar un `float`, debes usar la 'f'.
 
-```
+```java
 double pi = 3.1415926535;
 float gravedad = 9.8f; 
 ```
@@ -68,7 +68,7 @@ El tipo `char` se usa para almacenar **un solo carácter**. En Java un `char` oc
 
 Define siempre con **comillas simples** `' '`
 
-```
+```java
 char letra = 'A';
 char simbolo = '@';
 char unicode = '\u0041' // es la letra 'A' em codigo Unicode
@@ -84,7 +84,7 @@ El tipo mas simple. Solo tiene dos valores posibles `true` (verdadero) o `false`
 
 Es la base de toda la lógica de control (condicionales y bucles) que veremos mas adelante. 
 
-```
+```java
 boolean esJavaDivertido = true;
 boolean meGusraPHP = false
 ```
@@ -95,7 +95,7 @@ curiosamente, el tamaño en memoria de un `boolean` no esta estrictamente defini
 
 ¿Qué pasa si intentas guardar un número más grande del que cabe en la caja? Imagina un `byte` (máximo 127).
 
-```
+```java
 byte numero = 127;
 numero++; // Sumamos 1
 System.out.println(numero); // ¿Resultado?
@@ -103,12 +103,7 @@ System.out.println(numero); // ¿Resultado?
 
 El resultado **no es 128**. El resultado es **-128**. Al sumar 1, los bits dan la vuelta (como el cuentakilómetros de un coche viejo) y pasamos al valor negativo más bajo. Esto se llama _Integer Overflow_ y es una fuente común de bugs.
 
-# Sintaxis
-para definir una variable , se debe especificar el tipo de dato, seguido del nombre y el valor se puede asignar al momento de la declaración o posteriormente 
 
-```
-Tipo nombreVarible = valor;
-```
 
 
 

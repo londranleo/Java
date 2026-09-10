@@ -17,6 +17,12 @@ Para añadirlo:
 git remote add origin https://github.com/usuario/MiProyecto.git
 ```
 
+Para cambiar la url:
+
+```
+git remote set-url origin "direccion repositorio"
+```
+
 Aquí:
 
 - `remote` → trabajas con repositorios remotos.
