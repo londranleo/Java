@@ -43,4 +43,3 @@ Recorrido → comprueba los elementos uno por uno
 binarySearch() → busca rápidamente en un array ordenado
 ```
 
-> buscar en un array consiste en localizar un elemento o determinar que no existe. Podemos recorrerlo directamente o utilizar `Arrays.binarySearch()`, que requiere que el array esté ordenado.

@@ -42,4 +42,3 @@ La encapsulación no significa simplemente **poner los atributos como `private`*
 
 Los modificadores de acceso (`private`, `public`, `protected` y el acceso de paquete) permiten establecer quién puede acceder a los miembros de una clase.
 
->la encapsulación permite proteger el estado interno de un objeto y controlar cómo otras partes del programa pueden acceder o modificarlo.
