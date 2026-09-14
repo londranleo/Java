@@ -1,4 +1,4 @@
-# ¿Qué es una rama?
+# Qué es una rama
 
 Una **rama (branch)** es una referencia que permite trabajar sobre una línea de desarrollo independiente dentro de un repositorio.
 
