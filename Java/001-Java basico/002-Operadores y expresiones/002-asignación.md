@@ -21,13 +21,13 @@ edad = 22;
 
 Java proporciona operadores que combinan una operación aritmética con una asignación:
 
-|Operador|Equivalencia|
-|---|---|
-|`+=`|`a = a + valor`|
-|`-=`|`a = a - valor`|
-|`*=`|`a = a * valor`|
-|`/=`|`a = a / valor`|
-|`%=`|`a = a % valor`|
+| Operador | Equivalencia    |
+| -------- | --------------- |
+| `+=`     | `a = a + valor` |
+| `-=`     | `a = a - valor` |
+| `*=`     | `a = a * valor` |
+| `/=`     | `a = a / valor` |
+| `%=`     | `a = a % valor` |
 
 Por ejemplo:
 

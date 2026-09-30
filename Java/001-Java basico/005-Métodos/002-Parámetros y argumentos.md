@@ -28,7 +28,7 @@ Aquí `10` y `5` son los argumentos que se asignan a `a` y `b`.
 
 La relación es:
 
-```java
+```text
 Parámetro → variable definida por el método
 Argumento → valor proporcionado al llamar al método
 ```
@@ -49,4 +49,3 @@ Con objetos, el valor que se copia es la **referencia al objeto**. Por ello, el 
 
 Este comportamiento es importante porque Java **no utiliza paso por referencia de variables**.
 
->los parámetros son las variables que un método declara para recibir información y los argumentos son los valores que se proporcionan al realizar la llamada. En Java, los argumentos siempre se pasan por valor.

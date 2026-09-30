@@ -47,4 +47,3 @@ void comprobar(int numero) {
 
 Una vez que se ejecuta `return`, el método termina inmediatamente.
 
-> el tipo de retorno indica qué tipo de resultado proporciona un método. `return` termina el método y, cuando corresponde, entrega ese resultado al código que realizó la llamada.

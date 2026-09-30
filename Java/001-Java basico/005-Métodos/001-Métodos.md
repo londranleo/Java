@@ -29,7 +29,7 @@ Aquí:
 
 Para ejecutar un método debemos **invocarlo**:
 
-```
+```java
 int resultado = sumar(5, 3);
 ```
 
@@ -39,7 +39,7 @@ Los valores `5` y `3` son los **argumentos** que se proporcionan al método.
 
 Un método puede realizar una acción sin devolver ningún resultado. Para ello se utiliza `void`.
 
-```
+```java
 void mostrarMensaje() {
     System.out.println("Hola");
 }
@@ -80,4 +80,3 @@ Un método puede utilizarse varias veces y cada llamada puede recibir valores di
 
 Esto permite evitar duplicación de código y separar las distintas responsabilidades de un programa.
 
->un método es un bloque de código que realiza una tarea concreta. Puede recibir datos mediante parámetros y puede devolver un resultado mediante `return`, o no devolver ninguno utilizando `void`.

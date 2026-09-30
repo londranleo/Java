@@ -2,27 +2,27 @@ La concatenación de cadenas consiste en unir dos o mas cadenas de texto para fo
 
 Cuando se utiliza `+` con valores de tipo `String`, java interpreta la operación como una concatenación en lugar de una suma. El resultado es una **nueva cadena** que contiene los caracteres de los valores concatenados en el mismo orden.
 
-```
+```java
 String nombre = "Juan";
 String saludo = "Hola ";
 ```
 
 **Salida** de `saludo` será:
 
-```
+```java
 Hola Juan 
 ```
 
 La concatenación también puede combinar cadena con valores de otros tipos. Cuando uno de los operandos es un `String`, el otro valor se convierte en una representación textual y ambos se concatenan.
 
-```
+```java
 int edad 22;
 String mensaje = "Tengo " + edad + " anios"
 ```
 
 **Salida** de `mensaje` será:
 
-```
+```java
 Tengo 22 anios
 ```
 
@@ -36,7 +36,7 @@ Cuando existen varias operaciones con `+`, Java las evalúa de izquierda a derec
 
 Por eso, la posición de los valores puede cambiar completamente el resultado:
 
-```
+```java
 System.out.println(10 + 20 + " Java");
 System.out.println("Java " + 10 + 20);
 ```
@@ -49,7 +49,7 @@ El primer caso comienza realizando una suma numérica antes de encontrar el `Str
 
 `concat()` es un método de `String` destinado específicamente a unir una cadena con otra.
 
-```
+```java
 String resultado = "Hola ".concat("Leo");
 ```
 
@@ -63,7 +63,7 @@ Su uso es sencillo, aunque en la mayoría de situaciones el operador `+` resulta
 
 Esto resulta especialmente útil cuando se realizan muchas concatenaciones, por ejemplo, al construir texto dentro de un bucle.
 
-```
+```java
 StringBuilder texto = new StringBuilder();
 texto.append("Hola ");
 texto.append("Leo");
@@ -87,7 +87,7 @@ Esta sincronización introduce una sobrecarga adicional. Por ello, cuando no es 
 
 Por ejemplo, resulta útil para crear una cadena a partir de varios valores separados por una coma, un espacio, un guion u otro delimitador.
 
-```
+```java
 String resultado = String.join(", ", "Java", "Python", "C++");
 ```
 
@@ -110,5 +110,3 @@ La elección depende de la situación:
 - `String.join()` → unir varios elementos utilizando un separador.
 
 Todas estas operaciones tienen como objetivo producir texto combinado, pero **no funcionan exactamente de la misma manera ni están pensadas para los mismos escenarios**.
-
->**Idea clave:** para concatenaciones simples, `+` suele ser la opción más clara. Para construir texto mediante muchas modificaciones se utiliza `StringBuilder`, mientras que `StringBuffer` añade sincronización para escenarios concurrentes. `String.join()` está orientado a unir múltiples elementos mediante un separador.
