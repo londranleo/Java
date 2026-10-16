@@ -54,4 +54,3 @@ Aquí estamos indicando que la referencia `animal` debe tratarse como un `Perro`
 
 Este tipo de casting solo es válido si el objeto realmente puede tratarse como el tipo indicado. Si no es así, puede producirse una `ClassCastException`.
 
->el casting permite realizar una **conversión explícita de un tipo a otro**. En tipos numéricos puede provocar pérdida de información, mientras que en referencias permite cambiar el tipo con el que tratamos un objeto dentro de una jerarquía compatible.

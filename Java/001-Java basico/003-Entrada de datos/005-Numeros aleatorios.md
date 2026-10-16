@@ -53,4 +53,3 @@ El algoritmo utiliza un valor inicial llamado **semilla (seed)**. Si se utiliza 
 
 Por tanto, la aleatoriedad utilizada habitualmente en programación no debe confundirse necesariamente con una fuente de aleatoriedad física o impredecible.
 
->Java permite generar valores pseudoaleatorios mediante herramientas como `Random` y `Math.random()`. Al trabajar con rangos, hay que prestar especial atención a los límites, ya que normalmente el límite superior no forma parte de los valores posibles.

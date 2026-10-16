@@ -4,7 +4,7 @@ En Java, `String` proporciona principalmente los métodos `contains()`, `indexOf
 
 `contains()` se utiliza cuando únicamente necesitamos saber **si una subcadena está presente**. Devuelve un valor `boolean`: `true` si la encuentra y `false` si no está presente.
 
-```
+```java
 String texto = "Estoy aprendiendo Java";
 
 texto.contains("Java"); // true
@@ -12,10 +12,10 @@ texto.contains("Java"); // true
 
 `indexOf()` permite obtener **la posición de la primera aparición** de un carácter o subcadena. Si no encuentra el contenido buscado, devuelve `-1`.
 
-```
+```java
 String texto = "Java es un lenguaje";
 
-int posicion = texto.indexOf("lenguaje");
+int posicion = texto.indexOf("lenguaje"); //11
 ```
 
 `lastIndexOf()` funciona de forma similar, pero busca **la última aparición** del contenido.
@@ -24,4 +24,4 @@ La búsqueda distingue entre mayúsculas y minúsculas. Por ejemplo, `"Java"` y 
 
 Estos métodos no modifican la cadena original. Únicamente **consultan su contenido y devuelven información sobre él**.
 
->**Idea clave:** la búsqueda de subcadenas permite determinar si un texto contiene una secuencia concreta y, cuando es necesario, conocer dónde aparece. `contains()` indica si existe, mientras que `indexOf()` y `lastIndexOf()` permiten localizar su posición.
+

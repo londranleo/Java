@@ -25,7 +25,7 @@ Entre los métodos más utilizados se encuentran:
 
 Por ejemplo:
 
-```
+```java
 String texto = "Hola Java";
 
 int longitud = texto.length();
@@ -38,4 +38,3 @@ Es importante distinguir entre **métodos que devuelven información** y **méto
 
 Además, muchos métodos de `String` pueden combinarse para realizar operaciones más complejas sobre el texto.
 
->**Idea clave:** los métodos de `String` proporcionan las operaciones necesarias para trabajar con cadenas: obtener información, buscar contenido, comparar texto, acceder a caracteres y generar nuevas cadenas. Debido a la inmutabilidad de `String`, estos métodos no modifican directamente el objeto original.

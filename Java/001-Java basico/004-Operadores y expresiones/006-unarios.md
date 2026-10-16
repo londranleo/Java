@@ -4,13 +4,13 @@ Los **operadores unarios** son aquellos que trabajan sobre **un único operando*
 
 Los principales operadores unarios son:
 
-|Operador|Función|
-|---|---|
-|`+`|Indica un valor positivo|
-|`-`|Cambia el signo del valor|
-|`!`|Invierte un `boolean`|
-|`++`|Incrementa en 1|
-|`--`|Decrementa en 1|
+| Operador | Función                   |
+| -------- | ------------------------- |
+| `+`      | Indica un valor positivo  |
+| `-`      | Cambia el signo del valor |
+| `!`      | Invierte un `boolean`     |
+| `++`     | Incrementa en 1           |
+| `--`     | Decrementa en 1           |
 
 El operador `+` unario simplemente indica que el valor es positivo y normalmente no produce ningún cambio apreciable en el valor.
 

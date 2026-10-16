@@ -1,4 +1,3 @@
-[[Java/000-Ejemplo/001-Variables/Reto/003-Reserva de hoteles|003-Reserva de hoteles]]
 
 ```java
 public class ReservaDeHoteles {  

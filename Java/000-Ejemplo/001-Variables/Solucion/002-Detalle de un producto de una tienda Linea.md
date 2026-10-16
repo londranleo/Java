@@ -1,4 +1,3 @@
-[[Java/000-Ejemplo/001-Variables/Reto/002-Detalle de un producto de una tienda Linea|002-Detalle de un producto de una tienda Linea]]
 
 ```java
 public class TiendaEnLinea {  

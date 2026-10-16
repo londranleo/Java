@@ -4,10 +4,10 @@ Los **operadores de igualdad** se utilizan para determinar si dos valores son **
 
 Java dispone de dos operadores de igualdad:
 
-|Operador|Significado|
-|---|---|
-|`==`|Igual a|
-|`!=`|Diferente de|
+| Operador | Significado  | Valores                                       |
+| -------- | ------------ | ------------------------------------------ |
+| `==`     | Igual a                                                      |
+| `!=`     | Difer true si son distinto, false si son iguales on  se  o,  |
 
 ### `==`
 

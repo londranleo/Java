@@ -1,4 +1,3 @@
-[[Java/000-Ejemplo/001-Variables/Reto/001-Detalle persona|001-Detalle persona]] 
 
 ```java
 public class DetallePersona {  

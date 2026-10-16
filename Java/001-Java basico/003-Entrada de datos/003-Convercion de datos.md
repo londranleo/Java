@@ -32,27 +32,25 @@ En este caso, la conversión de `double` a `int` puede provocar **pérdida de in
 
 El casting no redondea automáticamente el número; elimina la parte decimal.
 
-### Conversión entre tipos numéricos
-
-Los tipos numéricos primitivos tienen diferentes capacidades y rangos de representación. Por ello, al convertir entre ellos hay que tener en cuenta si puede producirse pérdida de información.
-
-Por ejemplo, convertir un tipo entero pequeño a uno mayor suele ser seguro, mientras que realizar la conversión inversa puede provocar que el valor no pueda representarse correctamente.
-
-También pueden producirse diferencias de precisión al convertir valores de tipos enteros a tipos decimales o entre distintos tipos de coma flotante.
 
 ### Conversión entre `String` y otros tipos
 
 La conversión de datos también puede implicar texto. Un `String` que contiene un número no es lo mismo que un número.
 
 ```java
-"25" → String
-25   → int
+String numero = "25";
+int numero1 = 25;
 ```
 
 Para convertir texto a un tipo numérico se utilizan métodos de las clases correspondientes, como `Integer.parseInt()` o `Double.parseDouble()`.
+
+```java
+String edadString = "22";
+doubele edad = Double.parseDouble(edadString); //22.0
+```
+
 
 En sentido contrario, un valor puede convertirse en texto mediante métodos como `String.valueOf()`.
 
 Por tanto, hay que diferenciar entre **convertir tipos numéricos entre sí** y **convertir texto que representa un valor en un tipo numérico**.
 
->**Idea clave:** convertir datos significa transformar un valor para poder trabajar con él como otro tipo. En Java, la conversión puede ser automática o requerir una conversión explícita, y dependiendo de los tipos involucrados puede existir riesgo de pérdida de información.

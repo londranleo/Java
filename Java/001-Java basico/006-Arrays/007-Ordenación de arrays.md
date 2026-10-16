@@ -30,4 +30,3 @@ Esto permite ordenar únicamente los elementos comprendidos entre esas posicione
 
 Java también permite utilizar `Arrays.sort()` con arrays de objetos y proporcionar un `Comparator` para definir **cómo deben ordenarse**. Esto será especialmente importante cuando estudiemos objetos y colecciones.
 
->ordenar un array significa reorganizar sus elementos según un criterio. `Arrays.sort()` permite realizar esta operación y, por defecto, utiliza el orden natural de los elementos.

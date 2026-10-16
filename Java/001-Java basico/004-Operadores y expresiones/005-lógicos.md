@@ -6,11 +6,11 @@ Trabajan principalmente con valores `boolean` y producen como resultado otro `bo
 
 Los principales operadores son:
 
-|Operador|Significado|
-|---|---|
-|`&&`|AND — y|
-|`\|`|OR — o|
-|`!`|NOT — negación|
+| Operador | Significado    |
+| -------- | -------------- |
+| `&&`     | AND — y        |
+| `\|\|`   | OR — o         |
+| `!`      | NOT — negación |
 
 ### `&&` — AND
 

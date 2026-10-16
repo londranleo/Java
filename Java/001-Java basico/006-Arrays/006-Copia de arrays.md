@@ -29,7 +29,7 @@ También podemos indicar un tamaño diferente. Si el nuevo tamaño es mayor, las
 
 Permite copiar **una parte concreta** de un array:
 
-```
+```java
 int[] copia = Arrays.copyOfRange(a, 1, 3);
 ```
 
@@ -41,7 +41,7 @@ Por tanto, se copian los elementos de los índices `1` y `2`.
 
 Los arrays también proporcionan `clone()`, que permite crear una copia del array:
 
-```
+```java
 int[] copia = a.clone();
 ```
 
